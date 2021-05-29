@@ -1,0 +1,12 @@
+export const results = {
+  values: [
+    {
+      id: 1,
+      value: 1,
+    },
+    {
+      id: 2,
+      value: 2,
+    },
+  ],
+};

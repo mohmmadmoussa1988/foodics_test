@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/static/js/main.dca9f7c2.chunk.js",
+    "main.js.map": "/static/js/main.dca9f7c2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6851790e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6851790e.js.map",
+    "static/js/2.69b81691.chunk.js": "/static/js/2.69b81691.chunk.js",
+    "static/js/2.69b81691.chunk.js.map": "/static/js/2.69b81691.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2ae47eeb.chunk.css.map": "/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.69b81691.chunk.js.LICENSE.txt": "/static/js/2.69b81691.chunk.js.LICENSE.txt",
+    "static/media/AIRBNB.f8f22ed6.svg": "/static/media/AIRBNB.f8f22ed6.svg",
+    "static/media/BOOKINGCOM.8ea33a55.svg": "/static/media/BOOKINGCOM.8ea33a55.svg",
+    "static/media/FontsFree-Net-SFProDisplay-Bold.aa9f6c10.ttf": "/static/media/FontsFree-Net-SFProDisplay-Bold.aa9f6c10.ttf",
+    "static/media/FontsFree-Net-SFProDisplay-Light.cf8cf81c.ttf": "/static/media/FontsFree-Net-SFProDisplay-Light.cf8cf81c.ttf",
+    "static/media/FontsFree-Net-SFProDisplay-Medium.c9c3d293.ttf": "/static/media/FontsFree-Net-SFProDisplay-Medium.c9c3d293.ttf",
+    "static/media/FontsFree-Net-SFProDisplay-Regular.1e1c0e29.ttf": "/static/media/FontsFree-Net-SFProDisplay-Regular.1e1c0e29.ttf",
+    "static/media/FontsFree-Net-SFProDisplay-Semibold.e563de5c.ttf": "/static/media/FontsFree-Net-SFProDisplay-Semibold.e563de5c.ttf",
+    "static/media/HOLIDU.d01da7f6.svg": "/static/media/HOLIDU.d01da7f6.svg",
+    "static/media/background.73d5f8b0.png": "/static/media/background.73d5f8b0.png",
+    "static/media/thumb-down.9873c9dd.svg": "/static/media/thumb-down.9873c9dd.svg",
+    "static/media/thumb-up.76d17c85.svg": "/static/media/thumb-up.76d17c85.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6851790e.js",
+    "static/js/2.69b81691.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.dca9f7c2.chunk.js"
+  ]
+}
