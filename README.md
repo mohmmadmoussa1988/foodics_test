@@ -1,8 +1,5 @@
 **Mohammad Moussa - Foodics Test**
 
-Dear Foodics Team, Please forgive some missed points like unit testing, storybook and layout responsiveness etc... since the test is too long and timeline is only 1 week knowing that im a full time worker, so i worked on after my work time.
-
-
 **Project is an SPA built with React js and Redux**<br/>
 **Navigation used to navigate between different pages**<br/>
 **Erro validation applied**<br/>
