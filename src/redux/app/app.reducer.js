@@ -63,6 +63,12 @@ const appReducer = (state = INITIAL_STATE, action) => {
         },
       };
 
+    case AppActionTypes.CLEAR_API_RESULTS:
+      return {
+        ...state,
+        RESULTS: {},
+      };
+
     default:
       return state;
   }

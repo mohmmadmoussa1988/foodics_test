@@ -33,6 +33,10 @@ export const noMoreDataRetrieved = () => ({
   type: AppActionTypes.NO_MORE_DATA_RETRIEVED,
 });
 
+export const clearApiResults = () => ({
+  type: AppActionTypes.CLEAR_API_RESULTS,
+});
+
 export const fetchStartAsync = (endpoint, page) => {
   return async (dispatch) => {
     dispatch(fetchStart());

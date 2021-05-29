@@ -6,7 +6,7 @@ import { putRequest, deleteRequest } from '../../../utils/requests';
 import { refreshPage } from '../../../utils/utils';
 import Title from '../../../components/Title/Title';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchStartAsync } from '../../../redux/app/app.actions';
+import { fetchStartAsync, clearApiResults } from '../../../redux/app/app.actions';
 import Loading from '../../../components/loading/loading.component';
 import { AddButtonDiv, InputRow, SubmitForm, EditCustomersContainerWrapper, ContainerHeaderWrapper, RestoreButton, Edit, InputSelectRow, TopMenu, DeleteButton } from './EditCustomer.styles';
 const EditCustomer = () => {
@@ -21,6 +21,9 @@ const EditCustomer = () => {
     useEffect(() => {
         // To be called one time on load
         dispatch(fetchStartAsync(`customers/${id}`, null));
+        return () => {
+            dispatch(clearApiResults());
+        }
     }, []);
 
 

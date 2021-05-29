@@ -6,7 +6,7 @@ import { putRequest, deleteRequest } from '../../../utils/requests';
 import { refreshPage } from '../../../utils/utils';
 import Title from '../../Title/Title';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchStartAsync } from '../../../redux/app/app.actions';
+import { fetchStartAsync, clearApiResults } from '../../../redux/app/app.actions';
 import Loading from '../../loading/loading.component';
 import { AddButtonDiv, InputRow, SubmitForm, EditCategoryContainerWrapper, ContainerHeaderWrapper, RestoreButton, Edit, InputSelectRow, TopMenu, DeleteButton } from './EditCategories.styles';
 const EditCategory = () => {
@@ -18,9 +18,14 @@ const EditCategory = () => {
     const [editable, setEditable] = useState('true');
     const [editableInput, setEditableInput] = useState(true);
 
+
+
     useEffect(() => {
         // To be called one time on load
         dispatch(fetchStartAsync(`categories/${id}`, null));
+        return () => {
+            dispatch(clearApiResults());
+        }
     }, []);
 
 
